@@ -1,0 +1,34 @@
+<h4>Create a Contact</h4>
+<form ng-submit="createContact(contact)">
+    <p class="control">
+        <input type="text" placeholder="First Name"
+               ng-model="contact.fristName" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="Last Name"
+               ng-model="contact.lastName" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="Phone"
+               ng-model="contact.phone" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="City"
+               ng-model="contact.city" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="State"
+               ng-model="contact.state" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="Photo URL"
+               ng-model="contact.photoURL" />
+    </p>
+    <p class="control">
+        <input type="text" placeholder="Email"
+               ng-model="contact.email" />
+    </p>
+    <p class="control">
+        <button class="button is-primary">Create</button>
+    </p>
+</form>
