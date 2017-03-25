@@ -1,6 +1,14 @@
-<h1>Your Contacts</h1>
+<div class="header-container">
+  <h1 class="header is-pulled-left">Your Contacts</h1>
+  <a href="#!/contact/new" class="nav-item is-pulled-right menu">
+    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+  </a>
+</div>
 <ul class="contacts-main">
-    <li ng-repeat="contact in contacts">
-        <p>{{contact.first_name}} {{contact.last_name}}</p>
+    <li ng-repeat="contact in contacts" class="contacts">
+        <img src="http://sunfieldfarm.org/wp-content/uploads/2014/02/profile-placeholder.png" class="profile-pic">
+        <a href="#!/contact/{{contact.id}}">
+          <p id="{{contact.id}}" class="names">{{contact.first_name}} {{contact.last_name}}</p>
+        </a>
     </li>
 </ul>

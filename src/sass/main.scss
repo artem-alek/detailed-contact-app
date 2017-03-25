@@ -1,4 +1,5 @@
 @import "bulma";
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,7 +8,84 @@
 
 .container {
   margin: 25px auto;
-  border: 1px solid lightgray;
-  width: 600px;
-  height: 800px;
+  //border: 1px solid lightgray;
+  width: 400px;
+  height: 500px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px
+}
+
+.header-container {
+  background-color: #48C9B0;
+  margin: 0px;
+  height: 55px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.contacts {
+  margin: 10px 0px 10px 0px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  clear: both;
+  overflow: auto;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.menu {
+  margin-top: 1.5%;
+
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.names {
+  font-size: 15px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+
+.fa {
+  float: left;
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+.profile-pic {
+  width: 35px;
+  border-radius: 25px;
+  float: left;
+}
+
+.profile-main {
+  width: 100px;
+  border-radius: 50px;
+  display: block;
+  margin: 0px auto;
+  clear: both;
+}
+
+.details {
+  float: left;
+}
+
+.header-single {
+  height: 200px;
+  background-color: #48C9B0;
+}
+
+.contact-details {
+  overflow: auto;
+  clear: both;
+  height: 35px;
+  border-bottom: 1px solid lightgrey;
 }
